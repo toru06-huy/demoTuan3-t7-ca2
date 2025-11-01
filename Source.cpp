@@ -14,13 +14,16 @@ int tich(int a, int b) {
 }
 float thuong(int a, int b){
 	return a/b;
-};
+}int chiaLayDu(int a, int b){
+	return a%b;
+}
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"Tong = "<<tong(1,2);
 	cout << "Tich =" tich(4,5);
 	cout<<"Thuong = "<<thuong(4,2);
-	system("pause");
+	cout<<"a chia b du "<<chiaLayDu(9,5);
+system("pause");
 	return 0;
 }
