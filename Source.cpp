@@ -15,7 +15,7 @@ int tich(int a, int b) {
 float thuong(int a, int b){
 	return a/b;
 };
-bool kiemTraSoLe(int a){
+bool kiemTraSoChanLe(int a){
 	if(a%2==0) return false;
 	else return true
 }
@@ -26,8 +26,8 @@ int main()
 	cout<<"Hieu = "<<tong(2,1);
 	cout << "Tich = " tich(4,5);
 	cout<<"Thuong = "<<thuong(4,2);
-	if(kiemTraSoLe(3)) cout << "So nay la so le";
-	else cout <<"So nay khong phai la so le;"
+	if(kiemTraSoChanLe(3)) cout << "So nay la so le";
+	else cout <<"So nay la so chan;"
 	system("pause");
 	return 0;
 }
