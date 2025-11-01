@@ -19,7 +19,8 @@ int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"Tong = "<<tong(1,2);
-	cout << "Tich =" tich(4,5);
+	cout<<"Hieu = "<<tong(2,1);
+	cout << "Tich = " tich(4,5);
 	cout<<"Thuong = "<<thuong(4,2);
 	system("pause");
 	return 0;
