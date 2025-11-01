@@ -19,6 +19,16 @@ bool kiemTraSoChanLe(int a){
 	if(a%2==0) return false;
 	else return true
 }
+
+bool kiemTraNguyenTo(int n) {
+    if (n <= 1) return false; 
+    for (int i = 2; i * i <= n; ++i) {
+        if (n % i == 0) return false; 
+    }
+    return true;
+}
+
+
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
