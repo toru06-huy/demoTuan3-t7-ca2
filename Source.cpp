@@ -33,6 +33,7 @@ bool kiemTraNguyenTo(int n) {
 
 int main()
 {
+	cout<<"Nhanh master";
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	cout<<"Tong = "<<tong(1,2);
 	cout<<"Hieu = "<<tong(2,1);
